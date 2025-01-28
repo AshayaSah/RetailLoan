@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="max-w-7xl mx-auto relative z-10 text-white text-center py-20">
                 <h1 className="text-4xl font-bold mb-4 mt-36">The best way to inspire is often by example</h1>
                 <p className="text-lg mb-8">Get a head start in life by saving for the future.</p>
-                <button className="bg-green-600 text-white px-6 py-3 rounded hover:bg-green-700">
+                <button className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">
                     APPLY NOW
                 </button>
                 </div>
