@@ -1,9 +1,11 @@
-import React from "react";
+import Hero from "./components/hero/Hero";
+import Navbar from "./components/navbar/Navbar";
 
 const App = () => {
   return (
     <>
-      <div className="flex w-full justify-center">App</div>
+    <Navbar/>
+    <Hero/>
     </>
   );
 };
