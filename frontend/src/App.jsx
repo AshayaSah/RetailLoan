@@ -3,13 +3,15 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Form from "./components/form/Form";
 
-
 const App = () => {
   return (
-    <>
-    <Navbar/>
-    <Hero/>
-    </>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/form" element={<Form />} />
+      </Routes>
+    </Router>
   );
 };
 
